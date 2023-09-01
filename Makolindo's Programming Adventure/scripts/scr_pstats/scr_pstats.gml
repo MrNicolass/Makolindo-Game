@@ -7,4 +7,13 @@ function scr_pstats(){
 	xdir = 0
 	ydir = 0
 	
+	//def sprites
+	xscale = 1
+	yscale = 1
+
+	//sprite's frame
+	subimg = 0
+	
+	xto = x
+	yto = y
 }
