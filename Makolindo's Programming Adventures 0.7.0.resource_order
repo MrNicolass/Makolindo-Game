@@ -69,7 +69,6 @@
     {"name":"tile_collide_at_points","order":1,"path":"scripts/tile_collide_at_points/tile_collide_at_points.yy",},
     {"name":"spr_questBut","order":2,"path":"sprites/spr_questBut/spr_questBut.yy",},
     {"name":"Tile_MoChefe","order":1,"path":"tilesets/Tile_MoChefe/Tile_MoChefe.yy",},
-    {"name":"Sprite26","order":6,"path":"sprites/Sprite26/Sprite26.yy",},
     {"name":"Tile_Mobilia","order":1,"path":"tilesets/Tile_Mobilia/Tile_Mobilia.yy",},
     {"name":"scr_pstates","order":3,"path":"scripts/scr_pstates/scr_pstates.yy",},
     {"name":"Tile_MobQuests","order":1,"path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},
