@@ -55,6 +55,7 @@
     {"name":"spr_pc","order":1,"path":"sprites/spr_pc/spr_pc.yy",},
     {"name":"spr_diabo","order":1,"path":"sprites/spr_diabo/spr_diabo.yy",},
     {"name":"spr_hpback","order":1,"path":"sprites/spr_hpback/spr_hpback.yy",},
+    {"name":"Patov2","order":7,"path":"sprites/Patov2/Patov2.yy",},
     {"name":"spr_maktra","order":1,"path":"sprites/spr_maktra/spr_maktra.yy",},
     {"name":"Model","order":3,"path":"rooms/Model/Model.yy",},
     {"name":"spr_maklad","order":2,"path":"sprites/spr_maklad/spr_maklad.yy",},

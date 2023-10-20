@@ -79,6 +79,7 @@
     {"id":{"name":"spr_hpback","path":"sprites/spr_hpback/spr_hpback.yy",},},
     {"id":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},},
     {"id":{"name":"spr_pass","path":"sprites/spr_pass/spr_pass.yy",},},
+    {"id":{"name":"Patov2","path":"sprites/Patov2/Patov2.yy",},},
     {"id":{"name":"spr_maktra","path":"sprites/spr_maktra/spr_maktra.yy",},},
     {"id":{"name":"Model","path":"rooms/Model/Model.yy",},},
     {"id":{"name":"Tile_Bath","path":"tilesets/Tile_Bath/Tile_Bath.yy",},},
