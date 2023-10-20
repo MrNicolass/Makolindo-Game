@@ -39,6 +39,7 @@
     {"name":"Work","order":3,"path":"folders/Tile Sets/Map/Work.yy",},
     {"name":"Mobilia","order":2,"path":"folders/Tile Sets/Map/Work/Mobilia.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Misc","order":8,"path":"folders/Sprites/Misc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Tile_Work","order":1,"path":"tilesets/Tile_Work/Tile_Work.yy",},
@@ -77,7 +78,6 @@
     {"name":"obj_pass","order":1,"path":"objects/obj_pass/obj_pass.yy",},
     {"name":"spr_TCol","order":1,"path":"sprites/spr_TCol/spr_TCol.yy",},
     {"name":"obj_menu","order":2,"path":"objects/obj_menu/obj_menu.yy",},
-    {"name":"Pato","order":6,"path":"sprites/Pato/Pato.yy",},
     {"name":"Tile_Quarto","order":1,"path":"tilesets/Tile_Quarto/Tile_Quarto.yy",},
     {"name":"Room3","order":9,"path":"rooms/Room3/Room3.yy",},
     {"name":"spr_questans","order":3,"path":"sprites/spr_questans/spr_questans.yy",},
