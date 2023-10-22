@@ -34,14 +34,18 @@ if(interacting){
 				break
 				case 1://"Questao 2 - Qual é a finalidade de um laço de repetição em programação?"
 					draw_text_transformed(room_width*3,room_height*3,
-					"Parabéns!!\nEsta é a resposta correta.\nA finalidade de um laço de repetição\nem programação é executar um\nconjunto de instruções\nrepetidamente até que uma condição\nespecífica seja atendida.\nIsso permite a automação\nde tarefas que precisam ser repetidas,\ncomo processar uma lista de itens\nou validar entradas do usuário.\n\n Pressione 'ESC' OU 'Backspace' para sair."
+					"Parabéns!!\nEsta é a resposta correta.\nA finalidade de um laço de repetição em\nprogramação é executar um conjunto de\ninstruções repetidamente até que\numa condição específica seja atendida.\nIsso permite a automação de tarefas\nque precisam ser repetidas, como processar\numa lista de itens ou validar entradas do usuário.\n\n Pressione 'ESC' OU 'Backspace' para sair."
 					,3,3,0)
 				break
-				case 2:
-				
+				case 2://"Questao 3 - O que é um algoritmo?"
+					draw_text_transformed(room_width*3,room_height*3,
+					"Correto!!\nUm algoritmo é precisamente isso:\num conjunto ordenado de instruções que descreve\ncomo resolver um problema ou executar uma tarefa.\nEle não está ligado a uma linguagem de\nprogramação específica, não é um erro de\nprogramação e não é um dispositivo de hardware.\nÉ uma abstração fundamental na\nciência da computação.\n\n Pressione 'ESC' OU 'Backspace' para sair"
+					,3,3,0)
 				break
-				case 3:
-				
+				case 3://"Questao 4 - O que é uma estrutura condicional em programação?"
+					draw_text_transformed(room_width*3,room_height*3,
+					"Certo Certo Certo\n\n Pressione 'ESC' OU 'Backspace' para sair."
+					,3,3,0)
 				break
 			}
 		break
@@ -57,11 +61,15 @@ if(interacting){
 					"Errado Errado Errado\n\n\n Pressione 'ESC' OU 'Backspace' para sair."
 					,3,3,0)
 				break
-				case 2:
-				
+				case 2://"Questao 3 - O que é um algoritmo?"
+					draw_text_transformed(room_width*3,room_height*3,
+					"Errado Errado Errado\n\n\n Pressione 'ESC' OU 'Backspace' para sair."
+					,3,3,0)
 				break
-				case 3:
-				
+				case 3://"Questao 4 - O que é uma estrutura condicional em programação?"
+					draw_text_transformed(room_width*3,room_height*3,
+					"Errado Errado Errado\n\n\n Pressione 'ESC' OU 'Backspace' para sair."
+					,3,3,0)
 				break
 			}
 		break

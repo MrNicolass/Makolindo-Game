@@ -25,6 +25,7 @@
     {"name":"Background","order":2,"path":"folders/Sprites/Background.yy",},
     {"name":"Game","order":3,"path":"folders/Sprites/Game.yy",},
     {"name":"HUD","order":5,"path":"folders/Sprites/HUD.yy",},
+    {"name":"Misc","order":8,"path":"folders/Sprites/Misc.yy",},
     {"name":"Player","order":1,"path":"folders/Sprites/Player.yy",},
     {"name":"Animadas","order":4,"path":"folders/Sprites/Player/Animadas.yy",},
     {"name":"Quests","order":4,"path":"folders/Sprites/Quests.yy",},
@@ -39,7 +40,6 @@
     {"name":"Work","order":3,"path":"folders/Tile Sets/Map/Work.yy",},
     {"name":"Mobilia","order":2,"path":"folders/Tile Sets/Map/Work/Mobilia.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Misc","order":8,"path":"folders/Sprites/Misc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Tile_Work","order":1,"path":"tilesets/Tile_Work/Tile_Work.yy",},

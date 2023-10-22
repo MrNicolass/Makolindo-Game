@@ -38,5 +38,43 @@ function scr_qstresp(){
 					break;
 				}
 			break
+			case 2://"Questao 3 - O que é um algoritmo?"
+				switch pos{
+					case 0://A
+						state=qstates.questerrado
+						global.player.hp--
+					break;
+					case 1://B
+						state=qstates.questerrado
+						global.player.hp--
+					break;
+					case 2://C
+						state=qstates.questcerto
+					break;
+					case 3://D
+						state=qstates.questerrado
+						global.player.hp--
+					break;
+				}
+			break
+			case 3://"Questao 4 - O que é uma estrutura condicional em programação?"
+				switch pos{
+					case 0://A
+						state=qstates.questcerto
+					break;
+					case 1://B
+						state=qstates.questerrado
+						global.player.hp--
+					break;
+					case 2://C
+						state=qstates.questerrado
+						global.player.hp--
+					break;
+					case 3://D
+						state=qstates.questerrado
+						global.player.hp--
+					break;
+				}
+			break
 		}
 }

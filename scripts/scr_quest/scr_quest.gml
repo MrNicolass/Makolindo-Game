@@ -37,36 +37,36 @@ function scr_quest(){
 			}
 		break;
 		case 2://Room3
-			question = "Questao 3\n De qual substancia Makolindo\n se alimenta?"
+			question = "Questao 3\nO que é um algoritmo?"
 			switch pos{
 				case 0:
-					ans = "Makolindo se alimenta de \nenergia Vital"
+					ans = "A) Uma linguagem de programação\npopular."
 				break;
 				case 1:
-					ans = "Makolindo se alimenta de \nCamundongo Rechonchudo"
+					ans = "B) Um tipo de erro ao programar."
 				break;
 				case 2:
-					ans = "Makolindo não se alimenta NUNCA"
+					ans = "C) Um conjunto ordenado de\ninstruções para resolver um\nproblema."
 				break;
 				case 3:
-					ans = "Makolindo."
+					ans = "D) Um dispositivo de hardware\nusado para armazenar dados."
 				break;
 			}
 		break;
 		case 3://Room4
-			question = "Questao 4\nQual a estrutura de controle que permite a \nrepetição de um bloco de código ate que uma \ncondição seja atendida?"
+			question = "Questao 4\nO que é uma estrutura condicional\nem programação??"
 			switch pos{
 				case 0:
-					ans = "Estrutura condicional"
+					ans = "A) Uma instrução que permite\ntomar decisões com\nbase em condições."
 				break;
 				case 1:
-					ans = "Estrutura de seleção"
+					ans = "B) Uma variável que não pode\nser alterada."
 				break;
 				case 2:
-					ans = "Estrutura de repetição"
+					ans = "C) Um tipo de dado numérico."
 				break;
 				case 3:
-					ans = "Estrutura de dados"
+					ans = "D) Uma instrução que repete um\nconjunto de comandos."
 				break;
 			}
 		break;
