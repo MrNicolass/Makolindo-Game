@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_questBut",
-    "path": "sprites/spr_questBut/spr_questBut.yy",
+    "name": "SPRITEtestpc",
+    "path": "sprites/SPRITEtestpc/SPRITEtestpc.yy",
   },
   "spriteMaskId": null,
   "visible": true,

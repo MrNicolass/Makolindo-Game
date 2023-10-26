@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "Mobilia",
-    "path": "folders/Tile Sets/Map/Work/Mobilia.yy",
+    "name": "MobiliaGeral",
+    "path": "folders/Tile Sets/Map/Work/MobiliaGeral.yy",
   },
   "spriteId": {
     "name": "spr_Mobilia",

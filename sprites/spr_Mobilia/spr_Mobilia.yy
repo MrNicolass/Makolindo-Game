@@ -2,8 +2,8 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Mobilia",
-  "bbox_bottom": 159,
-  "bbox_left": 0,
+  "bbox_bottom": 31,
+  "bbox_left": 8,
   "bbox_right": 158,
   "bbox_top": 0,
   "bboxMode": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Mobilia",
-    "path": "folders/Tile Sets/Map/Work/Mobilia.yy",
+    "name": "MobiliaGeral",
+    "path": "folders/Tile Sets/Map/Work/MobiliaGeral.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

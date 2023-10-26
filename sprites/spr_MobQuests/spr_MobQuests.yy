@@ -4,7 +4,7 @@
   "name": "spr_MobQuests",
   "bbox_bottom": 159,
   "bbox_left": 0,
-  "bbox_right": 158,
+  "bbox_right": 159,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

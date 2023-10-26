@@ -40,10 +40,10 @@ function scr_quest(){
 			question = "Questao 3\nO que é um algoritmo?"
 			switch pos{
 				case 0:
-					ans = "A) Uma linguagem de programação\npopular."
+					ans = "A) Uma linguagem popular\nde programação."
 				break;
 				case 1:
-					ans = "B) Um tipo de erro ao programar."
+					ans = "B) Um tipo de erro na\nprogramação."
 				break;
 				case 2:
 					ans = "C) Um conjunto ordenado de\ninstruções para resolver um\nproblema."

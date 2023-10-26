@@ -44,7 +44,7 @@ if(interacting){
 				break
 				case 3://"Questao 4 - O que é uma estrutura condicional em programação?"
 					draw_text_transformed(room_width*3,room_height*3,
-					"Certo Certo Certo\n\n Pressione 'ESC' OU 'Backspace' para sair."
+					"Certo!!\nUma estrutura condicional é usada para\ntomar decisões em um programa com\nbase em condições específicas.\n\n\n Pressione 'ESC' OU 'Backspace' para sair."
 					,3,3,0)
 				break
 			}
