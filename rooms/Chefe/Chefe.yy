@@ -46,10 +46,11 @@
 -10,-2147483648,3,268435479,-2147483648,63,-4,-2147483648,-2,63,1,33,-10,-2147483648,3,268435489,-2147483648,63,-19,-2147483648,
 1,63,-22,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Floor","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
--42,-2147483648,-2,0,-12,11,-2,74,-4,-2147483648,2,54,0,-12,11,2,71,74,-4,-2147483648,
--2,0,-12,11,-2,74,-3,-2147483648,-3,0,-12,11,-2,74,-3,-2147483648,-3,0,-12,11,
--2,74,-3,-2147483648,-3,0,-12,11,-2,74,-3,-2147483648,-3,0,-12,11,-2,74,-5,-2147483648,
-1,0,-5,21,-2,20,-5,21,1,74,-43,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-42,-2147483648,-2,0,-12,11,-2,74,-4,-2147483648,3,54,0,11,-10,71,3,11,0,74,
+-4,-2147483648,-2,0,1,11,-10,71,3,11,74,74,-3,-2147483648,-3,0,1,11,-10,71,
+3,11,74,74,-3,-2147483648,-3,0,1,11,-10,71,3,11,74,74,-3,-2147483648,-3,0,
+1,11,-10,71,3,11,74,74,-3,-2147483648,-3,0,1,11,-11,71,-2,74,-5,-2147483648,
+2,0,21,-4,81,-2,80,-4,81,2,21,74,-43,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4279830803,"depth":800,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {

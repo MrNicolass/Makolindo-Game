@@ -47,10 +47,11 @@
 3,0,-2147483648,33,-10,-2147483648,3,33,-2147483648,0,-42,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Floor","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -2,-2147483648,-2,0,-18,-2147483648,2,0,-2147483648,-14,0,-4,-2147483648,-17,0,-3,-2147483648,-2,0,-12,
-11,-3,0,-3,-2147483648,-2,0,-12,11,-2,0,-4,-2147483648,-2,0,-12,11,-2,0,-4,
--2147483648,-2,0,-12,11,-2,0,-4,-2147483648,-2,0,-12,11,-2,0,-4,-2147483648,-2,0,-12,
-11,-2,0,-4,-2147483648,-2,0,-5,21,-2,20,-5,21,-2,0,-5,-2147483648,1,0,-36,
--2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+11,-3,0,-3,-2147483648,-2,0,1,11,-10,71,3,11,0,0,-4,-2147483648,-2,0,1,
+11,-3,71,1,11,-6,71,3,11,0,0,-4,-2147483648,-2,0,1,11,-10,71,3,
+11,0,0,-4,-2147483648,-2,0,1,11,-10,71,3,11,0,0,-4,-2147483648,-2,0,1,
+11,-10,71,3,11,0,0,-4,-2147483648,-2,0,1,21,-4,81,-2,80,-4,81,3,
+21,0,0,-5,-2147483648,1,0,-36,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4279830803,"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
