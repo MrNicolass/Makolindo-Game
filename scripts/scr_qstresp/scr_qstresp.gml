@@ -32,6 +32,7 @@ function scr_qstresp(){
 				break;
 				case 2://C
 					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 3://D
 					state=qstates.questerrado3
@@ -51,6 +52,7 @@ function scr_qstresp(){
 				break;
 				case 2://C
 					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 3://D
 					state=qstates.questerrado3
@@ -62,6 +64,7 @@ function scr_qstresp(){
 			switch pos{
 				case 0://A
 					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 1://B
 					state=qstates.questerrado1
