@@ -5,8 +5,22 @@ switch goto{
 	//Salas de Andares
 	case 100:
 		if(global.gameprog = 0){
-			Room = Entrevista
-		}else{
+			if(global.progresso = 1){
+				Room = Entrevista
+			}
+			if(global.progresso = 4){
+				Room = Floor1
+				playerx = 232
+				playery = 256
+			}
+			else if(global.progresso = 3){
+				Room = Quarto
+				playerx = global.player.x-8
+				playery = global.player.y-8
+				//EBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			}
+		}
+		if(global.gameprog = 1){
 			Room = Floor1
 		}
 	break
@@ -66,9 +80,8 @@ switch goto{
 }
 if(collision_circle(x+8,y+8,12,global.player,false,false)){
 	image_alpha = 1 
-	
-	if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
-		if(gameprog = global.gameprog && progresso <= global.progresso){
+	if(keyboard_check_pressed(global.KeyInteract) || keyboard_check_pressed(global.KeyInteract2)){
+		if(gameprog <= global.gameprog && progresso <= global.progresso){
 			room_goto(Room)
 			global.player.x=playerx+8
 			global.player.y=playery+8
@@ -76,11 +89,13 @@ if(collision_circle(x+8,y+8,12,global.player,false,false)){
 			global.player.yto=playery+8
 			obj_cam.x=playerx+8
 			obj_cam.y=playery+8
+			
+			
 		}
 	}
 }else{
 	image_alpha = 0
-	}
+}
 
 //image_alpha = 0 serve pra deixar o obj_pass invisivel
 //Para deixar o obj_pass visivel apenas quando puder interagir, descomentar o else.

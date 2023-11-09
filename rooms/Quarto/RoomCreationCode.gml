@@ -1,0 +1,1 @@
+if(global.progresso = 2){global.progresso++}
