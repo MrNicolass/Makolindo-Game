@@ -71,7 +71,7 @@ function scr_quest(){
 			}
 		break;
 		case 4://Room5
-			question = "Questao 5\n"
+			question = "Questao 5\nQuais das seguintes alternativas\nrepresentam laços de repetição\nbásicos em C++?"
 			switch pos{
 				case 0:
 					ans = "A) ."
@@ -88,7 +88,7 @@ function scr_quest(){
 			}
 		break;
 		case 5://Room6
-			question = "Questao 6\n"
+			question = "Questao 6\nNo exemplo do código em C\nno notebook na mesa ao lado,\nqual será o retorno esperado?"
 			switch pos{
 				case 0:
 					ans = "A) ."
@@ -105,7 +105,7 @@ function scr_quest(){
 			}
 		break;
 		case 6://Room7
-			question = "Questao 7\n"
+			question = "Questao 7\nAo analisar o código em java\nno quadro branco, quantas vezes\no bloco de código dentro de\nwhile será executado?"
 			switch pos{
 				case 0:
 					ans = "A) ."
@@ -122,7 +122,7 @@ function scr_quest(){
 			}
 		break;
 		case 7://Room8
-			question = "Questao 8\n"
+			question = "Questao 8\nDentro dessa sala há um código\nna linguagem C escondido, procure-o e\nselecione a alternativa que corresponda\na(s) linha(s) que existem com erro."
 			switch pos{
 				case 0:
 					ans = "A) ."
