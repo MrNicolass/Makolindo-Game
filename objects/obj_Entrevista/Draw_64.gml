@@ -7,16 +7,16 @@ var tdialogo = "0"
 
 switch dialogo{
 	case 1:
-		tdialogo = "Oi que bo que voce veio!!"
+		tdialogo = "Olá!! Que bom que você veio!!"
 	break
 	case 2:
 		tdialogo = "Como é seu nome mesmo? Makolindo!? Ahh... E seu sobrenome?\nMakolindo Monstro, é um prazer conversar com você!!"
 	break
 	case 3:
-		tdialogo = "vai trabaia vose passo!!"
+		tdialogo = "Perfeito!!\nAmanhã esperamos por você na HellsCorp!!"
 	break
 	case 4:
-		tdialogo = "Aperte 'ESC' ou 'Backspace' para sair"
+		tdialogo = "Volte para casa e durma para ir ao trabalho amanhã.\nAperte 'ESC' ou 'Backspace' para sair da entrevista"
 	break
 }
 draw_set_halign(fa_left)

@@ -80,67 +80,83 @@ function scr_qstresp(){
 				break;
 			}
 		break
-		case 4://"Questao 5 - "
+		case 4://"Questao 5 - Quais das seguintes alternativas representam laços de repetição básicos em C++?"
 			switch pos{
 				case 0://A
-					//Se a alternativa estiver certa só coloca o "state=qstates.questcerto"
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 1://B
-					//Se a alternativa estiver errada só coloca o "state=qstates.questerrado(numero dela) e global.player.hp--"
+					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 2://C
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 			}
 		break
-		case 5://"Questao 6 - "
+		case 5://"Questao 6 - No exemplo do código em C no notebook na mesa ao lado, qual será o retorno esperado?"
 			switch pos{
 				case 0://A
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 1://B
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 2://C
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 			}
 		break
-		case 6://"Questao 7 - "
+		case 6://"Questao 7 - Ao analisar o código em java no quadro branco, quantas vezes o bloco de código dentro de while será executado?""
 			switch pos{
 				case 0://A
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 1://B
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 2://C
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 			}
 		break
-		case 7://"Questao 8 - "
+		case 7://"Questao 8 - Dentro dessa sala há um código na linguagem C escondido, procure-o e selecione a alternativa que corresponda a(s) linha(s) que existem com erro.""
 			switch pos{
 				case 0://A
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 1://B
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 2://C
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 			}
 		break
