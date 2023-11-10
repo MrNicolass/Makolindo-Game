@@ -16,7 +16,7 @@ switch dialogo{
 		tdialogo = "Ótimo!! Ficamos felizes!!\nVenha até nossa empresa e estarei lhe esperando!!"
 	break
 	case 4:
-		tdialogo = "Vá até a porta para sair de casa.\nAperte 'ESC' ou 'Backspace' para sair"
+		tdialogo = "Vá até a porta e interaja para sair de casa.\nAperte 'ESC' ou 'Backspace' para sair do telefone"
 	break
 }
 draw_set_halign(fa_left)
