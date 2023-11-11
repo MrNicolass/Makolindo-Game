@@ -7,7 +7,7 @@ var tdialogo = "0"
 
 switch dialogo{
 	case 1:
-		tdialogo = "Olá, sou a Nara, da empresa de tecnologia HellsCorp!\nVimos seu currículo e gostariamos de ralizar uma entrevista com você!!"
+		tdialogo = "Olá, sou a Nara, da empresa de tecnologia HellsCorp!\nVimos seu currículo e gostariamos de realizar uma entrevista com você!!"
 	break
 	case 2:
 		tdialogo = "Você estaria disponível para realizá-la agora?\nNão deve tomar muito do seu tempo!!"
