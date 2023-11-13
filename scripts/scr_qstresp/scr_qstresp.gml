@@ -160,67 +160,83 @@ function scr_qstresp(){
 				break;
 			}
 		break
-		case 8://"Questao 9 - "
+		case 8://"Questao 9 - O que é uma função anônima?"
 			switch pos{
 				case 0://A
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 1://B
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 2://C
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 			}
 		break
-		case 9://"Questao 10 - "
+		case 9://"Questao 10 - Como uma função pode ser utilizada para reduzir a redundância de código?"
 			switch pos{
 				case 0://A
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 1://B
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 2://C
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 			}
 		break
-		case 10://"Questao 11 - "
+		case 10://"Questao 11 - Qual é a diferença entre um argumento e um parâmetro?"
 			switch pos{
 				case 0://A
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 1://B
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 				case 2://C
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 			}
 		break
-		case 11://"Questao 12 - "
+		case 11://"Questao 12 - Quando uma função é chamada dentro de outra função como argumento, isso é conhecido como?"
 			switch pos{
 				case 0://A
-					
+					state=qstates.questerrado1
+					global.player.hp--
 				break;
 				case 1://B
-					
+					state=qstates.questerrado2
+					global.player.hp--
 				break;
 				case 2://C
-					
+					state=qstates.questerrado3
+					global.player.hp--
 				break;
 				case 3://D
-					
+					state=qstates.questcerto
+					global.progresso++
 				break;
 			}
 		break

@@ -15,7 +15,7 @@ if(telstate = telstates.interacting){
 	}
 	if(keyboard_check_pressed(global.KeyBack)||keyboard_check_pressed(global.KeyBack2)){
 		dialogo = 0
-		telstate = 0//enum jkkkkkkkkkkkk
+		telstate = 0//enum
 		global.player.state = states.idle
 	}
 	instance_deactivate_object(obj_igmenu)

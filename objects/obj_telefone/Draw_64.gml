@@ -21,7 +21,7 @@ switch dialogo{
 }
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
-if(telstate = 2){//puque enum kkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+if(telstate = 2){//enum
 	draw_sprite_ext(spr_diagsbox,0,posx+64,posy+768,28,4,0,c_white,1)
 	draw_text_transformed(posx+128,posy+832,tdialogo,2,2,0)
 }
