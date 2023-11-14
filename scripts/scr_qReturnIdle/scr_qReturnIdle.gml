@@ -13,7 +13,7 @@ function scr_qReturnIdle(){
 				draw_text_transformed(500,(room_height*3.5-gap)+gap*i,option[level,i],2,2,0) //Original
 				//draw_text_ext_transformed(500,(room_height*3.5-gap)+gap*i,option[level,i],20,room_width,2,2,0)
 			}
-			draw_sprite_ext(spr_questans,0,room_width*2.5,(room_height*3)-68,10,7,0,#ffffff,1)
+			draw_sprite_ext(spr_questans,0,room_width*2.45,(room_height*3)-68,12,7,0,#ffffff,1)
 			draw_set_halign(fa_left)
 			draw_set_valign(fa_top)
 			//draw_text_transformed((room_width*2.5)+10,(room_height*3)-68,ans,2,2,0) //Original

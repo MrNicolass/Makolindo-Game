@@ -3,75 +3,75 @@ function scr_quest(){
 	switch level{
 		case 0://Room1
 			//Faz a pergunta
-			question = "Questao 1\nO que é uma variável na programação?"
+			question = "Questao 1 - O que é uma variável na programação?"
 			switch pos{
 				case 0:
 					ans = "A) Um dispositivo de entrada para coletar dados.Um dispositivo de entrada para coletar dados."
 				break;
 				case 1:
-					ans = "B) Uma instrução que\nencerra o programa."
+					ans = "B) Uma instrução que encerra o programa."
 				break;
 				case 2:
-					ans = "C) Um valor fixo que não\npode ser alterado."
+					ans = "C) Um valor fixo que não pode ser alterado."
 				break;
 				case 3:
-					ans = "D) Um local de armazenamento\npara dados que podem ser modificados durante a execução do programa."
+					ans = "D) Um local de armazenamento para dados que podem ser modificados durante a execução do programa."
 				break;
 			}
 		break;
 		case 1://Room2
-			question = "Questao 2\nQual é a finalidade de um\nlaço de repetição em programação?"
+			question = "Questao 2 - Qual é a finalidade de um laço de repetição em programação?"
 			switch pos{
 				case 0:
-					ans = "A) Executar uma ação uma única\nvez."
+					ans = "A) Executar uma ação uma única vez."
 				break;
 				case 1:
-					ans = "B) Armazenar valores em uma\nvariável."
+					ans = "B) Armazenar valores em uma variável."
 				break;
 				case 2:
-					ans = "C) Executar um conjunto de\ninstruções repetidamente até\nque uma condição seja atendida."
+					ans = "C) Executar um conjunto de instruções repetidamente até que uma condição seja atendida."
 				break;
 				case 3:
-					ans = "D) Realizar cálculos matemáticos\ncomplexos."
+					ans = "D) Realizar cálculos matemáticos complexos."
 				break;
 			}
 		break;
 		case 2://Room3
-			question = "Questao 3\nO que é um algoritmo?"
+			question = "Questao 3 - O que é um algoritmo?"
 			switch pos{
 				case 0:
-					ans = "A) Uma linguagem popular\nde programação."
+					ans = "A) Uma linguagem popular de programação."
 				break;
 				case 1:
-					ans = "B) Um tipo de erro na\nprogramação."
+					ans = "B) Um tipo de erro na programação."
 				break;
 				case 2:
-					ans = "C) Um conjunto ordenado de\ninstruções para resolver um\nproblema."
+					ans = "C) Um conjunto ordenado de instruções para resolver um problema."
 				break;
 				case 3:
-					ans = "D) Um dispositivo de hardware\nusado para armazenar dados."
+					ans = "D) Um dispositivo de hardware usado para armazenar dados."
 				break;
 			}
 		break;
 		case 3://Room4
-			question = "Questao 4\nO que é uma estrutura condicional\nem programação??"
+			question = "Questao 4 - O que é uma estrutura condicional em programação??"
 			switch pos{
 				case 0:
-					ans = "A) Uma instrução que permite\ntomar decisões com\nbase em condições."
+					ans = "A) Uma instrução que permite tomar decisões com base em condições."
 				break;
 				case 1:
-					ans = "B) Uma variável que não pode\nser alterada."
+					ans = "B) Uma variável que não pode ser alterada."
 				break;
 				case 2:
 					ans = "C) Um tipo de dado numérico."
 				break;
 				case 3:
-					ans = "D) Uma instrução que repete um\nconjunto de comandos."
+					ans = "D) Uma instrução que repete um conjunto de comandos."
 				break;
 			}
 		break;
 		case 4://Room5
-			question = "Questao 5\nQuais das seguintes alternativas\nrepresentam laços de repetição\nbásicos em C++?"
+			question = "Questao 5 - Quais das seguintes alternativas representam laços de repetição básicos em C++?"
 			switch pos{
 				case 0:
 					ans = "A) for, do-while e case"
@@ -88,7 +88,7 @@ function scr_quest(){
 			}
 		break;
 		case 5://Room6
-			question = "Questao 6\nNo exemplo do código em C\nno notebook na mesa ao lado,\nqual será o retorno esperado?"
+			question = "Questao 6 - No exemplo do código em C no notebook na mesa ao lado, qual será o retorno esperado?"
 			switch pos{
 				case 0:
 					ans = "A) Retorna o número 3"
@@ -105,7 +105,7 @@ function scr_quest(){
 			}
 		break;
 		case 6://Room7
-			question = "Questao 7\nAo analisar o código em java\nno quadro branco, quantas vezes\no bloco de código dentro de\nwhile será executado?"
+			question = "Questao 7 - Ao analisar o código em java no quadro branco, quantas vezes o bloco de código dentro de while será executado?"
 			switch pos{
 				case 0:
 					ans = "A) Retorna I = 0"
@@ -122,7 +122,7 @@ function scr_quest(){
 			}
 		break;
 		case 7://Room8
-			question = "Questao 8\nDentro dessa sala há um código\nna linguagem C escondido, procure-o e\nselecione a alternativa que corresponda\na(s) linha(s) que existem com erro."
+			question = "Questao 8 - Dentro dessa sala há um código na linguagem C escondido, procure-o e selecione a alternativa que corresponda a(s) linha(s) que existem com erro."
 			switch pos{
 				case 0:
 					ans = "A) Linhas 8 e 9"
@@ -139,58 +139,58 @@ function scr_quest(){
 			}
 		break;
 		case 8://Room9
-			question = "Questao 9\nO que é uma função anônima?"
+			question = "Questao 9 - O que é uma função anônima?"
 			switch pos{
 				case 0:
-					ans = "A) Uma função que não tem \nnome que pode ser definida em\numa única linha de código."
+					ans = "A) Uma função que não tem  nome que pode ser definida em uma única linha de código."
 				break;
 				case 1:
-					ans = "B) Uma função que tem um nome,\nmas não tem parâmetros."
+					ans = "B) Uma função que tem um nome, mas não tem parâmetros."
 				break;
 				case 2:
-					ans = "C) Uma função que não retorna\nnenhum valor."
+					ans = "C) Uma função que não retorna nenhum valor."
 				break;
 				case 3:
-					ans = "D) Uma função que retorna o\nseu nome como resultado."
+					ans = "D) Uma função que retorna o seu nome como resultado."
 				break;
 			}
 		break;
 		case 9://Room10
-			question = "Questao 10\nComo uma função pode ser\nutilizada para reduzir a redundância de código?"
+			question = "Questao 10 - Como uma função pode ser utilizada para reduzir a redundância de código?"
 			switch pos{
 				case 0:
-					ans = "A) Criando cópias do mesmo\ncódigo em vários lugares\ndo programa."
+					ans = "A) Criando cópias do mesmo código em vários lugares do programa."
 				break;
 				case 1:
-					ans = "B) Dividindo o programa em\nvárias funções menores que\nrealizam tarefas específicas."
+					ans = "B) Dividindo o programa em várias funções menores que realizam tarefas específicas."
 				break;
 				case 2:
-					ans = "C) Agrupando todas as instruções\nem uma única função."
+					ans = "C) Agrupando todas as instruções em uma única função."
 				break;
 				case 3:
-					ans = "D) Escrevendo uma função que\npode ser chamada com diferentes\nargumentos para realizar uma\ntarefa específica."
+					ans = "D) Escrevendo uma função que pode ser chamada com diferentes argumentos para realizar uma tarefa específica."
 				break;
 			}
 		break;
 		case 10://Room11
-			question = "Questao 11\nQual é a diferença entre um argumento e um parâmetro?"
+			question = "Questao 11 - Qual é a diferença entre um argumento e um parâmetro?"
 			switch pos{
 				case 0:
-					ans = "A) Um argumento é uma variável\nlocal, enquanto um parâmetro é uma\nvariável global."
+					ans = "A) Um argumento é uma variável local, enquanto um parâmetro é uma variável global."
 				break;
 				case 1:
-					ans = "B) Um argumento é o valor que\né passado para a função, enquanto um parâmetro\né a variável que recebe esse valor."
+					ans = "B) Um argumento é o valor que é passado para a função, enquanto um parâmetro é a variável que recebe esse valor."
 				break;
 				case 2:
-					ans = "C) Um argumento é uma variável\nque é criada dentro da função, \nenquanto um parâmetro é uma variável que\né passada para a função."
+					ans = "C) Um argumento é uma variável que é criada dentro da função,  enquanto um parâmetro é uma variável que é passada para a função."
 				break;
 				case 3:
-					ans = "D) Um parâmetro é uma variável\nusada em uma função,\nenquanto um argumento é um valor fixo."
+					ans = "D) Um parâmetro é uma variável usada em uma função, enquanto um argumento é um valor fixo."
 				break;
 			}
 		break;
 		case 11://Room12
-			question = "Questao 12\nQuando uma função é chamada dentro\nde outra função como argumento,\nisso é conhecido como?"
+			question = "Questao 12 - Quando uma função é chamada dentro de outra função como argumento, isso é conhecido como?"
 			switch pos{
 				case 0:
 					ans = "A) Encadeamento"
