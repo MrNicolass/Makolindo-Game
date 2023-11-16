@@ -16,11 +16,14 @@
 -22,-2147483648,-2,0,-18,-2147483648,-16,0,-4,-2147483648,1,0,-7,-2147483648,-3,0,-4,-2147483648,1,0,
 -4,-2147483648,1,0,-11,-2147483648,-4,0,-4,-2147483648,1,0,-14,1,1,0,-4,-2147483648,1,0,
 -6,1,1,0,-6,-2147483648,2,1,0,-4,-2147483648,2,0,1,-10,-2147483648,-3,1,1,0,
--4,-2147483648,2,0,1,-10,-2147483648,-2,0,2,1,0,-4,-2147483648,1,0,-14,1,1,0,
+-4,-2147483648,2,0,1,-9,-2147483648,-3,0,2,1,0,-4,-2147483648,1,0,-14,1,1,0,
 -42,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Collision","path":"tilesets/Tile_Collision/Tile_Collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactives","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Acessorios","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
+-103,-2147483648,-2,0,-18,-2147483648,-3,0,-5,-2147483648,1,0,-11,-2147483648,2,0,-2147483648,-9,0,2,
+1,2,-18,-2147483648,1,12,-65,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactives","depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27F10F9B_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pass","path":"objects/obj_pass/obj_pass.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pass","path":"objects/obj_pass/obj_pass.yy",},"propertyId":{"name":"playerx","path":"objects/obj_pass/obj_pass.yy",},"value":"336",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pass","path":"objects/obj_pass/obj_pass.yy",},"propertyId":{"name":"playery","path":"objects/obj_pass/obj_pass.yy",},"value":"170",},
@@ -30,14 +33,12 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"propertyId":{"name":"qprogress","path":"objects/obj_quest/obj_quest.yy",},"value":"5",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":125.0,"y":110.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Acessorios","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
--103,-2147483648,-2,0,-18,-2147483648,-3,0,-5,-2147483648,1,25,-11,-2147483648,2,0,-2147483648,-9,0,2,
-1,2,-18,-2147483648,1,12,-65,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Mobilia","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -44,-2147483648,-12,0,-7,-2147483648,-3,0,-2,-2147483648,-4,0,-2,-2147483648,-3,0,-6,-2147483648,-7,0,
--5,-2147483648,-2,0,-6,-2147483648,-5,0,4,27,0,-2147483648,27,-3,3,1,0,-7,-2147483648,9,
-0,268435505,268435504,268435503,268435502,268435501,25,6,-2147483648,-3,13,1,16,-7,-2147483648,8,0,268435515,268435514,268435513,
-268435512,268435511,0,0,-3,-2147483648,-3,0,-6,-2147483648,-3,0,-8,-2147483648,-3,0,-63,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-5,-2147483648,-2,0,-6,-2147483648,-2,0,1,27,-3,0,-2,3,-3,0,2,27,0,-7,
+-2147483648,8,0,268435505,268435504,268435503,268435502,268435501,13,13,-3,0,2,25,16,-7,-2147483648,8,0,268435515,
+268435514,268435513,268435512,268435511,0,0,-3,-2147483648,-3,0,-6,-2147483648,-3,0,-8,-2147483648,-3,0,-63,-2147483648,
+],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Tapete","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -75,-2147483648,1,0,-12,-2147483648,-9,0,-6,-2147483648,-2,0,-2,-2147483648,-6,0,-2,-2147483648,-2,0,
 -6,-2147483648,6,0,1073741918,1073741908,1073741908,1073741898,1073741888,-6,0,2,-2147483648,0,-6,-2147483648,9,0,1073741919,1073741909,

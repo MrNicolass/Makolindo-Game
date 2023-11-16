@@ -88,7 +88,7 @@ function scr_quest(){
 			}
 		break;
 		case 5://Room6
-			question = "Questao 6 - No exemplo do código em C no notebook na mesa ao lado, qual será o retorno esperado?"
+			question = "Questao 6 - Ao analisar o código em java no quadro branco, qual será o retorno esperado?"
 			switch pos{
 				case 0:
 					ans = "A) Retorna o número 3"
@@ -105,7 +105,7 @@ function scr_quest(){
 			}
 		break;
 		case 6://Room7
-			question = "Questao 7 - Ao analisar o código em java no quadro branco, quantas vezes o bloco de código dentro de while será executado?"
+			question = "Questao 7 - No exemplo do código em C no notebook na mesa ao lado, quantas vezes o bloco de código dentro de while será executado?"
 			switch pos{
 				case 0:
 					ans = "A) Nenhuma vez"
@@ -122,7 +122,7 @@ function scr_quest(){
 			}
 		break;
 		case 7://Room8
-			question = "Questao 8 - Dentro dessa sala há um código na linguagem C escondido, procure-o e selecione a alternativa que corresponda a(s) linha(s) que existem com erro."
+			question = "Questao 8 - Dentro dessa sala há um código na linguagem C escondido em uma folha, procure-o e selecione a alternativa que corresponda a(s) linha(s) que existem com erro."
 			switch pos{
 				case 0:
 					ans = "A) Linhas 8 e 9"

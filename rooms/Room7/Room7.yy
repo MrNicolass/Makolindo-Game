@@ -35,12 +35,12 @@
 -46,-2147483648,8,28,-2147483648,-2147483648,3,9,3,-2147483648,28,-10,-2147483648,-4,0,6,25,13,6,13,
 25,-2147483648,-3,0,-7,-2147483648,5,0,-2147483648,-2147483648,0,0,-5,-2147483648,-3,0,-6,-2147483648,-2,0,
 3,5,-2147483648,0,-7,-2147483648,-2,0,-6,-2147483648,-2,0,1,14,-9,0,2,-2147483648,0,-7,
--2147483648,2,0,-2147483648,-4,0,4,-2147483648,12,-2147483648,-2147483648,-3,0,-18,-2147483648,1,0,-64,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-2147483648,2,0,-2147483648,-4,0,4,-2147483648,0,-2147483648,-2147483648,-3,0,-18,-2147483648,1,0,-64,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Mobilia","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -43,-2147483648,-14,0,-6,-2147483648,-2,0,3,81,82,83,-6,0,3,16,0,0,-6,-2147483648,
 -2,0,5,91,92,93,0,0,-3,-2147483648,-4,0,-6,-2147483648,-2,0,12,21,22,23,
-0,0,268435495,268435494,268435493,268435492,268435491,0,0,-6,-2147483648,-2,0,10,31,32,33,0,0,268435505,
-268435504,268435503,268435502,268435501,-8,-2147483648,-2,0,12,41,42,43,0,0,268435515,268435514,268435513,268435512,268435511,0,
+0,0,268435495,268435494,268435493,268435492,268435491,0,0,-6,-2147483648,-2,0,10,31,32,33,0,0,45,
+46,47,268435502,268435501,-8,-2147483648,-2,0,12,41,42,43,0,0,55,56,57,268435512,268435511,0,
 0,-6,-2147483648,-3,0,-8,-2147483648,-3,0,-63,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Tapete","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -88,-2147483648,-5,0,-2,-2147483648,-2,0,-3,-2147483648,-2,0,2,-2147483648,0,-4,-2147483648,-9,0,-3,

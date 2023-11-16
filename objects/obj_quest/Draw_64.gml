@@ -15,12 +15,11 @@ if(interacting){
 			scr_qReturnCerto()
 			//Exibe a mensagem de sair da tela no meio ao inferior sprite
 			draw_text_ext_transformed(room_width*3,(room_height*4.5),dialogoSaida,20,room_width*1.5,3,3,0)
-			
 		break
 	}
-	scr_qReturnErrado()
-	//Exibe a mensagem de sair da tela no meio ao inferior sprite
-	draw_text_ext_transformed(room_width*3,(room_height*4.5),dialogoSaida,20,room_width*1.5,3,3,0)
-
+	if(state != 0 && state != 1){
+		scr_qReturnErrado()
+		draw_text_ext_transformed(room_width*3,(room_height*4.5),dialogoSaida,20,room_width*1.5,3,3,0)
+	}
 //DICA: DA PRA APERTAR F4 PRA ABRIR O SELETOR DE CRIAÇÃO DE COISAS!! VER!!!!
 }
