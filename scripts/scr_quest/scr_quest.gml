@@ -108,16 +108,16 @@ function scr_quest(){
 			question = "Questao 7 - Ao analisar o código em java no quadro branco, quantas vezes o bloco de código dentro de while será executado?"
 			switch pos{
 				case 0:
-					ans = "A) Retorna I = 0"
+					ans = "A) Nenhuma vez"
 				break;
 				case 1:
-					ans = "B) Retorna I = 2"
+					ans = "B) 2 vezes"
 				break;
 				case 2:
-					ans = "C) Retorna I = 3"
+					ans = "C) 3 vezes"
 				break;
 				case 3:
-					ans = "D) Retorna I = 4"
+					ans = "D) 4 vezes"
 				break;
 			}
 		break;
