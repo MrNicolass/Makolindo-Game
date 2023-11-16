@@ -6,7 +6,7 @@ function scr_quest(){
 			question = "Questao 1 - O que é uma variável na programação?"
 			switch pos{
 				case 0:
-					ans = "A) Um dispositivo de entrada para coletar dados.Um dispositivo de entrada para coletar dados."
+					ans = "A) Um dispositivo de entrada para coletar dados. Um dispositivo de entrada para coletar dados."
 				break;
 				case 1:
 					ans = "B) Uma instrução que encerra o programa."

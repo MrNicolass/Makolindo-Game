@@ -6,7 +6,7 @@ function scr_qReturnCerto(){
 				Retorno = "Parabéns, você acertou!\nUma variável é exatamente isso: um local de armazenamento em que você pode atribuir valores que podem ser alterados durante a execução do programa." 
 		break
 		case 1://"Questao 2 - Qual é a finalidade de um laço de repetição em programação?"
-			Retorno = "Parabéns!!\nEsta é a resposta correta. A finalidade de um laço de repetição em programação é executar um conjunto de instruções repetidamente até que uma condição específica seja atendida. Isso permite a automação de tarefas que precisam ser repetidas, como processar uma lista de itens ou validar entradas do usuário." 
+			Retorno = "Parabéns!!\nEssa é a resposta correta. A finalidade de um laço de repetição em programação é executar um conjunto de instruções repetidamente até que uma condição específica seja atendida. Isso permite a automação de tarefas que precisam ser repetidas, como processar uma lista de itens ou validar entradas do usuário." 
 		break
 		case 2://"Questao 3 - O que é um algoritmo?"
 			Retorno = "Correto!!\nUm algoritmo é precisamente isso: um conjunto ordenado de instruções que descreve como resolver um problema ou executar uma tarefa. Ele não está ligado a uma linguagem de programação específica, não é um erro de programação e não é um dispositivo de hardware. É uma abstração fundamental na ciência da computação." 

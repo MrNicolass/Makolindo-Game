@@ -68,6 +68,7 @@
   },
   "resources": [
     {"id":{"name":"Tile_Work","path":"tilesets/Tile_Work/Tile_Work.yy",},},
+    {"id":{"name":"obj_folhaQ","path":"objects/obj_folhaQ/obj_folhaQ.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"scr_camfollow","path":"scripts/scr_camfollow/scr_camfollow.yy",},},
     {"id":{"name":"obj_Entrevista","path":"objects/obj_Entrevista/obj_Entrevista.yy",},},
@@ -157,6 +158,7 @@
     {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},},
     {"id":{"name":"obj_cama","path":"objects/obj_cama/obj_cama.yy",},},
+    {"id":{"name":"spr_folhaQ","path":"sprites/spr_folhaQ/spr_folhaQ.yy",},},
     {"id":{"name":"scr_qReturnIdle","path":"scripts/scr_qReturnIdle/scr_qReturnIdle.yy",},},
     {"id":{"name":"spr_marcio","path":"sprites/spr_marcio/spr_marcio.yy",},},
   ],

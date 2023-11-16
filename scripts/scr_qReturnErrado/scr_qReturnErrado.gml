@@ -125,7 +125,7 @@ function scr_qReturnErrado(){
 					Retorno = "Errouuuuu!\nFunções tem como objetivo principal reduzir o código, e não aumentá-lo!!!"
 				break
 				case 3: //Feedback alternativa “b”
-					Retorno = "Puts… Pior que não!\nDe certa forma não deixa de estar correto, mas ficar criando várias funções para qualquer coisa dentro do seu programa não vai necessariamente reduzir o código"
+					Retorno = "Puts... Pior que não!\nDe certa forma não deixa de estar correto, mas ficar criando várias funções para qualquer coisa dentro do seu programa não vai necessariamente reduzir o código"
 				break
 				case 4: //Feedback alternativa “c”
 					Retorno = "Alternativa errada!\nCriar uma função que tenha todas as funcionalidades do seu programa em um único lugar, na verdade vai acabar provavelmente deixando ele mais redundante!"
@@ -135,13 +135,13 @@ function scr_qReturnErrado(){
 		case 10://quest11
 			switch state{
 				case 2: //Feedback alternativa “a”
-					Retorno = "Nem de perto meu amigo…\nArgumentos realmente são apenas locais de certa forma, mas parâmetros podem ser locais também"
+					Retorno = "Nem de perto meu amigo...\nArgumentos realmente são apenas locais de certa forma, mas parâmetros podem ser locais também"
 				break
 				case 3: //Feedback alternativa “c”
 					Retorno = "Quase lá, mas está errado.\nArgumentos realmente são criados e utilizados apenas dentro de funções, mas parâmetros podem ser mais do que apenas variáveis passadas para funções"
 				break
 				case 4: //Feedback alternativa “d”
-					Retorno = "Nossa… Você está querendo ser demitido?\nParâmetros podem ser utilizados em outras partes do código fora de funções, e também, argumentos podem ser mutáveis"
+					Retorno = "Nossa... Você está querendo ser demitido?\nParâmetros podem ser utilizados em outras partes do código fora de funções, e também, argumentos podem ser mutáveis"
 				break
 			}
 		break

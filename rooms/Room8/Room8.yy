@@ -9,6 +9,7 @@
   "instanceCreationOrder": [
     {"name":"inst_27F10F9B_1_1_1_1_1_1_1","path":"rooms/Room8/Room8.yy",},
     {"name":"inst_44C1A401_1_1_1_1_1_1_1","path":"rooms/Room8/Room8.yy",},
+    {"name":"inst_728B01E6","path":"rooms/Room8/Room8.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -32,6 +33,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44C1A401_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"propertyId":{"name":"qprogress","path":"objects/obj_quest/obj_quest.yy",},"value":"7",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":101.0,"y":110.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_728B01E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_folhaQ","path":"objects/obj_folhaQ/obj_folhaQ.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":200.0,"y":104.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Mobilia","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -43,-2147483648,-13,0,-7,-2147483648,-3,0,8,27,0,27,0,3,3,88,87,-3,0,-6,
