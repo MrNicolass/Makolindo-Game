@@ -9,6 +9,7 @@
   "instanceCreationOrder": [
     {"name":"inst_27F10F9B_1_1_1_1_1_1","path":"rooms/Room7/Room7.yy",},
     {"name":"inst_44C1A401_1_1_1_1_1_1","path":"rooms/Room7/Room7.yy",},
+    {"name":"inst_1653BC9F","path":"rooms/Room7/Room7.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -30,6 +31,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44C1A401_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"propertyId":{"name":"qprogress","path":"objects/obj_quest/obj_quest.yy",},"value":"6",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":220.0,"y":111.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1653BC9F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_notebookQ","path":"objects/obj_notebookQ/obj_notebookQ.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":181.0,"y":111.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Acessorios","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -46,-2147483648,8,28,-2147483648,-2147483648,3,9,3,-2147483648,28,-10,-2147483648,-4,0,6,25,13,6,13,
