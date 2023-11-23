@@ -15,14 +15,14 @@
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Collision","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -41,-2147483648,-17,0,-4,-2147483648,2,0,-2147483648,-12,1,-2,0,-4,-2147483648,-2,0,-3,1,-6,
 -2147483648,-3,1,-2,0,-4,-2147483648,-2,0,-3,1,-5,0,1,-2147483648,-3,1,-2,0,-4,
--2147483648,-2,0,1,1,-9,0,4,-2147483648,1,-2147483648,0,-4,-2147483648,-2,0,1,1,-3,0,
--5,-2147483648,-2,0,3,1,0,0,-4,-2147483648,2,0,-2147483648,-4,1,-5,-2147483648,-3,1,-3,
+-2147483648,-2,0,1,1,-9,0,4,-2147483648,1,-2147483648,0,-4,-2147483648,-2,0,-4,1,-5,-2147483648,
+-3,1,-2,0,-4,-2147483648,6,0,-2147483648,1,0,0,1,-5,-2147483648,3,1,0,1,-3,
 0,-3,-2147483648,-2,0,-12,1,-3,0,-18,-2147483648,1,0,-22,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Collision","path":"tilesets/Tile_Collision/Tile_Collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Acessorios","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
--45,-2147483648,-2,0,1,-2147483648,-5,0,-12,-2147483648,4,0,-2147483648,0,0,-4,-2147483648,4,0,-2147483648,
--2147483648,0,-8,-2147483648,2,25,24,-6,-2147483648,4,5,14,0,0,-6,-2147483648,-2,0,2,-2147483648,
-4,-7,-2147483648,3,0,-2147483648,0,-6,-2147483648,-2,0,-18,-2147483648,6,0,-2147483648,3,1,2,0,
--4,-2147483648,2,86,87,-10,-2147483648,3,13,0,12,-5,-2147483648,2,96,97,-65,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-45,-2147483648,-2,0,1,-2147483648,-5,0,-12,-2147483648,4,62,-2147483648,0,0,-4,-2147483648,4,0,-2147483648,
+-2147483648,0,-8,-2147483648,2,72,24,-6,-2147483648,4,0,62,0,0,-6,-2147483648,-2,0,2,14,
+4,-6,-2147483648,4,5,72,-2147483648,0,-6,-2147483648,-2,0,-18,-2147483648,6,0,-2147483648,3,1,2,
+0,-4,-2147483648,2,86,87,-10,-2147483648,3,13,0,12,-5,-2147483648,2,96,97,-65,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactives","depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -33,11 +33,11 @@
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":152.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44C1A401_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_quest","path":"objects/obj_quest/obj_quest.yy",},"propertyId":{"name":"qprogress","path":"objects/obj_quest/obj_quest.yy",},"value":"9",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":96.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":217.0,"y":71.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Mobilia","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
--44,-2147483648,-3,0,1,-2147483648,-8,0,-7,-2147483648,-4,0,6,27,18,86,87,0,27,-4,
-0,-6,-2147483648,-2,0,12,20,21,0,6,96,97,25,-2147483648,20,21,0,0,-6,-2147483648,
+-44,-2147483648,-3,0,1,-2147483648,-8,0,-7,-2147483648,-4,0,6,27,18,86,87,63,27,-4,
+0,-6,-2147483648,-2,0,12,20,21,0,6,96,97,73,-2147483648,20,21,0,0,-6,-2147483648,
 -2,0,2,30,31,-4,0,-2,-2147483648,4,30,31,0,0,-6,-2147483648,-2,0,2,40,
 41,-4,0,-2,-2147483648,3,40,41,0,-7,-2147483648,-7,0,-4,-2147483648,-4,0,-5,-2147483648,-3,
 0,-8,-2147483648,-3,0,-63,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_MobQuests","path":"tilesets/Tile_MobQuests/Tile_MobQuests.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

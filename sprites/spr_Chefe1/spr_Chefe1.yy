@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "3ºAndar",
+    "path": "folders/Sprites/NPC/3ºAndar.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

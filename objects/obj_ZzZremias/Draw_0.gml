@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_ZzZremias,0,x+xpos,y,xscale,yscale,rot,c_white,alpha)

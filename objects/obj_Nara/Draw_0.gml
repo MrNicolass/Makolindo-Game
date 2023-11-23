@@ -1,0 +1,1 @@
+draw_sprite(spr_Nara,0,x,y)

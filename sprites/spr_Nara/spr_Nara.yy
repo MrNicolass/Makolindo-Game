@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Nara",
-  "bbox_bottom": 14,
+  "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 14,
   "bbox_top": 0,
@@ -18,7 +18,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 17,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"410f577c-481e-473a-8fbe-a6fe71572c48","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "1ºAndar",
+    "path": "folders/Sprites/NPC/1ºAndar.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
