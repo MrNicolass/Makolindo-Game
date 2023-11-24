@@ -10,6 +10,7 @@ if(interacting){
 	switch state{
 		case 0://qstateidle
 			scr_qReturnIdle()
+			draw_text_ext_transformed(room_width*2,(room_height*5),dialogoSaida,20,room_width*1.5,1.5,1.5,0)
 		break
 		case 1://qstatecerto
 			scr_qReturnCerto()

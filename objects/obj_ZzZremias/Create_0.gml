@@ -5,4 +5,4 @@ rot = 0
 alpha = 1
 xpos = x 
 ypos = y
-obj_Geremias.alarm[0]=30
+depth = -1000

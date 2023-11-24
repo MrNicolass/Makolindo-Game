@@ -1,10 +1,5 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-
-
-
-
-
-
-
+enum qdbstates{
+	idle,
+	interacting
+}
+state = qdbstates.idle

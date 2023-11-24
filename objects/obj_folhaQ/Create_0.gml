@@ -1,10 +1,5 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-
-
-
-
-
-
-
+enum folqstates{
+	idle,
+	interacting
+}
+state = folqstates.idle
