@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Jhonson",
+  "name": "obj_Cachorra",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Room3",
-    "path": "folders/Objects/NPC/1ºAndar/Room3.yy",
+    "name": "Room5",
+    "path": "folders/Objects/NPC/2ºAndar/Room5.yy",
   },
-  "parentObjectId": {
-    "name": "obj_iParents",
-    "path": "objects/obj_iParents/obj_iParents.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Jhonson",
-    "path": "sprites/spr_Jhonson/spr_Jhonson.yy",
+    "name": "spr_Cachorra",
+    "path": "sprites/spr_Cachorra/spr_Cachorra.yy",
   },
   "spriteMaskId": null,
   "visible": true,

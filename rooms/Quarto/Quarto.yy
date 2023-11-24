@@ -43,7 +43,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35EBA81A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_iParents","path":"objects/obj_iParents/obj_iParents.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-16.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Mobilias","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
--43,-2147483648,1,7,-3,-2147483648,10,8,97,-2147483648,9,-2147483648,-2147483648,18,19,0,39,-6,-2147483648,4,
+-43,-2147483648,1,7,-3,-2147483648,10,8,97,97,9,-2147483648,-2147483648,18,19,0,39,-6,-2147483648,4,
 47,0,0,62,-6,-2147483648,4,28,29,48,49,-7,-2147483648,-2,0,-18,-2147483648,-2,0,-2,
 -2147483648,3,72,73,74,-3,-2147483648,1,66,-9,-2147483648,-2,65,-2,-2147483648,3,82,83,84,-3,
 -2147483648,1,76,-13,-2147483648,5,92,93,94,-2147483648,-2147483648,-3,0,-17,-2147483648,4,85,86,87,0,

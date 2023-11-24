@@ -45,7 +45,7 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Mobilia","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -33,-2147483648,-2,0,-7,-2147483648,-2,0,13,27,86,3,3,87,27,27,3,268435542,0,15,
-27,0,-5,-2147483648,-2,0,13,25,96,13,13,97,6,6,13,268435552,2,0,25,16,
+27,0,-5,-2147483648,-2,0,13,25,96,13,13,97,6,6,13,268435552,2,0,70,16,
 -6,-2147483648,7,35,36,37,38,39,20,21,-3,-2147483648,4,80,81,82,83,-6,-2147483648,14,
 45,46,47,48,49,30,31,0,0,-2147483648,90,91,92,93,-6,-2147483648,7,55,56,57,
 58,59,40,41,-3,-2147483648,-4,0,-6,-2147483648,-9,0,1,-2147483648,-4,0,-6,-2147483648,-3,0,
