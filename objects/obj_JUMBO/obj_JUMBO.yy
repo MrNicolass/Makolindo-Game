@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_JUMBO",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_JUMBO",
-    "path": "sprites/spr_JUMBO/spr_JUMBO.yy",
+    "name": "spr_JUMBO2",
+    "path": "sprites/spr_JUMBO2/spr_JUMBO2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
