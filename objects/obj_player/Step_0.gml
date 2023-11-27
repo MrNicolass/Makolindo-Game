@@ -1,4 +1,5 @@
+
 scr_pstates()
 if (keyboard_check_pressed(ord("P"))){
-	global.progresso = 5
+	global.progresso = 11
 }

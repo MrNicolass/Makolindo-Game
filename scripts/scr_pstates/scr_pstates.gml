@@ -9,5 +9,8 @@ function scr_pstates(){
 		case states.interacting:
 			
 		break;
+		case states.cutscene:
+			
+		break
 	}
 }
