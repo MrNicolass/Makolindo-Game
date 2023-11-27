@@ -5,7 +5,8 @@ function scr_pstats(){
 	enum states{
 		idle, //num 0
 		walking, //num 1
-		interacting //num 2
+		interacting, //num 2
+		cutscene //num 3
 	}
 	state = states.idle	
 	Spd = [0,0]

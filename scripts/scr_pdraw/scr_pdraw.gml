@@ -66,5 +66,7 @@ function scr_pdraw(){
 	yto = lerp(yto,y,.2)
 	
 	//Function to draw with more options
-	draw_sprite_ext(sprite,subimg,xto,yto,xscale,yscale,0,#ffffff,1)
+	if(state != states.cutscene){
+		draw_sprite_ext(sprite,subimg,xto,yto,xscale,yscale,0,#ffffff,1)
+	}
 }
