@@ -1,4 +1,4 @@
-if(collision_circle(x,y,24,obj_player,false,false) && state != chefestates.interacting){
+if(collision_circle(x,y,26,obj_player,false,false) && state != chefestates.interacting){
 	if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
 		global.player.state = states.interacting
 		state = chefestates.interacting

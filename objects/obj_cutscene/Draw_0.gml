@@ -9,7 +9,13 @@ if(global.player.hp < global.player.maxhp){
 draw_set_valign(fa_top)
 draw_set_halign(fa_center)
 
-var credits = "Equipe:\n\n\nProgramação:\n\n\nSons:\n\n\nSprites:\n\n\nArte:\n\n\nAgradecimentos Especiais:"
+
+var credits = "Equipe: Makolindo\n\n\nProgramação: Higor Azevedo, Nathan C, Nicolas C\n\n\nMúsica: DEP\n\n\nSprites: Makolindo\n\n\nArte: PzE"
+
 
 draw_text_transformed(room_width/2,y+360,credits,.5,.5,0)
 
+draw_text_transformed_color(room_width/2,(room_height/2)-32,"Agradecimentos Especiais",.5,.5,0,c_white,c_white,c_white,c_white,salphatxt)
+draw_sprite_ext(spr_agrdGeremias,0,(room_width/2)-40,room_height/2,.2,.2,0,c_white,salpha1)
+draw_sprite_ext(spr_agrdBaiacu,0,room_width/2,room_height/2,.2,.2,0,c_white,salpha2)
+draw_sprite_ext(spr_agrdMakoLino,0,(room_width/2)+40,room_height/2,.2,.2,0,c_white,salpha3)

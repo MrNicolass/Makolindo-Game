@@ -4,7 +4,9 @@ level = 0
 op_length = 0
 rot = 0
 timer = 0
-alarm[0] = 580
+alarm[0] = 470
+alarm[1] = 940
+alarm[2] = 60
 mb_alpha = 0
 //Opções do menu
 option[0, 0] = "Iniciar"

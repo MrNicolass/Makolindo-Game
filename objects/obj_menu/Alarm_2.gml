@@ -1,0 +1,1 @@
+audio_play_sound(snd_IntroMenu,1,0,1,0,1,1)
