@@ -1,14 +1,16 @@
 op_length = array_length(option[level])
 if(start_menu){
 
-pos += (keyboard_check_pressed(global.KeyDown) || keyboard_check_pressed(global.ArrowDown))-(keyboard_check_pressed(global.KeyUp) || keyboard_check_pressed(global.ArrowUp))
+if !Binding {
+pos += (keyboard_check_pressed(global.KeyDown) - keyboard_check_pressed(global.KeyUp))
+}
 if(pos>=op_length){
 	pos = 0
 }
 if(pos<0){
 	pos = op_length-1
 }
-if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
+if(keyboard_check_pressed(global.KeyInteract) && !Binding){
 	switch level{
 		case 0:
 			switch pos{
@@ -45,21 +47,70 @@ if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.Key
 			}
 		break
 		case 2:
-			switch pos{
-				case 3:
-					level = 0
-				break
-			}
+			alarm[3] = 1;
 		break
 	}
 	op_length = array_length(option[level])
-	pos = 0
 }
-if(keyboard_check_pressed(global.KeyBack)||keyboard_check_pressed(global.KeyBack2)){
+if(keyboard_check_pressed(global.KeyBack) && !Binding){
+	
 	pos = 0
 	level = 0
+	op_length = array_length(option[level])
 }
+
+if Binding {
+	if keyboard_check_pressed(vk_anykey){
+		switch pos {
+			//KeyUp
+			case 0:
+				global.KeyUp = keyboard_lastkey;
+				option[2, 0] = "Up: "+global._fhinputKeys[global.KeyUp]
+				Binding = false;
+			break;
+			
+			//KeyDown
+			case 1:
+				global.KeyDown = keyboard_lastkey;
+				option[2, 1] = "Down: "+global._fhinputKeys[global.KeyDown]
+				Binding = false;
+			break;
+			
+			//KeyLeft
+			case 2:
+				global.KeyLeft = keyboard_lastkey;
+				option[2, 2] = "Left: "+global._fhinputKeys[global.KeyLeft]
+				Binding = false;
+			break;
+			
+			//KeyRight
+			case 3:
+				global.KeyRight = keyboard_lastkey;
+				option[2, 3] = "Right: "+global._fhinputKeys[global.KeyRight]
+				Binding = false;
+			break;
+			
+			//KeyInteract
+			case 4:
+				global.KeyInteract = keyboard_lastkey;
+				option[2, 4] = "Interact: "+global._fhinputKeys[global.KeyInteract]
+				Binding = false;
+			break;
+			
+			//KeyBack
+			case 5:
+				global.KeyBack = keyboard_lastkey;
+				option[2, 5] = "Back/Pause: "+global._fhinputKeys[global.KeyBack]
+				Binding = false;
+			break;
+		}		
+		
+	}
 }
+
+}
+
+
 if(menu_bg<1){
 	menu_bg+=.02
 }

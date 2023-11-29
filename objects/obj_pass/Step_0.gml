@@ -1,6 +1,9 @@
 //Definicao de variaveis podem ser utilizadas para alteracoes dentro de salas
 //ex, na sala Room1 vamos para a sala Room2, conseguimos "setar" o local de entrada e saída do obj_player
 //Em resumo, são variaveis ligadas diretamente ao objeto e "nao aos eventos em si"
+
+if global.paused exit;
+
 switch goto{
 	//Salas de Andares
 	case 100:
@@ -80,7 +83,7 @@ switch goto{
 }
 if(collision_circle(x+8,y+8,12,global.player,false,false)){
 	image_alpha = 1 
-	if(keyboard_check_pressed(global.KeyInteract) || keyboard_check_pressed(global.KeyInteract2)){
+	if(keyboard_check_pressed(global.KeyInteract)){
 		if(gameprog <= global.gameprog && progresso <= global.progresso){
 			room_goto(Room)
 			global.player.x=playerx+8

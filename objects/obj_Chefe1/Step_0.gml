@@ -1,12 +1,12 @@
 if(collision_circle(x,y,26,obj_player,false,false) && state != chefestates.interacting){
-	if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
+	if(keyboard_check_pressed(global.KeyInteract)){
 		global.player.state = states.interacting
 		state = chefestates.interacting
 		dialogo = 0
 	}
 }
 if(state = chefestates.interacting){
-	if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
+	if(keyboard_check_pressed(global.KeyInteract)){
 		if(global.progresso < 12){
 			if(dialogo < 3){
 				dialogo++
@@ -25,7 +25,7 @@ if(state = chefestates.interacting){
 			}
 		}
 	}
-	if(keyboard_check_pressed(global.KeyBack)||keyboard_check_pressed(global.KeyBack2)){
+	if(keyboard_check_pressed(global.KeyBack)){
 		dialogo = 0
 		state = chefestates.idle
 		global.player.state = states.idle

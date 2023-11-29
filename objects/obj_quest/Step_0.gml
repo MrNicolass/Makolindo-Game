@@ -1,3 +1,5 @@
+if global.paused exit;
+
 op_length = array_length(option[level])
 //fazer aqui a criação de salas e o seu respectivo nível
 switch room{
@@ -41,26 +43,26 @@ switch room{
 if(interacting && global.paused = false && state=qstates.questidle){
 	scr_quest()
 	global.player.state = states.interacting
-	pos+= (keyboard_check_pressed(global.KeyDown) or  keyboard_check_pressed(global.ArrowDown)) - (keyboard_check_pressed(global.KeyUp) or  keyboard_check_pressed(global.ArrowUp));
+	pos+= (keyboard_check_pressed(global.KeyDown) - (keyboard_check_pressed(global.KeyUp)))
 	
 	if pos >= op_length{pos = 0}
     if pos < 0{pos = op_length-1}
 
-	if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
+	if(keyboard_check_pressed(global.KeyInteract)){
 		scr_qstresp()
 		pos = 0;
 		op_length = array_length(option[level])
 	}
 }else{
 	if(collision_circle(x,y,12,global.player,false,false) && qprogress = global.progresso){
-		if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
+		if(keyboard_check_pressed(global.KeyInteract)){
 			interacting = true
 			pos = 0
 		}
 	}
 }
 if(interacting && global.paused = false){
-	if(keyboard_check_pressed(global.KeyBack)||keyboard_check_pressed(global.KeyBack2)){
+	if(keyboard_check_pressed(global.KeyBack)){
 		state=0
 		interacting = false
 		global.player.state = states.idle
