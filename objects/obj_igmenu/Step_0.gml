@@ -1,6 +1,6 @@
 if(keyboard_check_pressed(global.KeyBack)){
 	if level < 1 {
-		global.paused = !global.paused
+		global.paused = !global.paused;
 	} else {
 		level = 0;
 		pos = 0;

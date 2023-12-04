@@ -1,5 +1,3 @@
-if global.paused exit;
-
 op_length = array_length(option[level])
 //fazer aqui a criação de salas e o seu respectivo nível
 switch room{
@@ -56,12 +54,15 @@ if(interacting && global.paused = false && state=qstates.questidle){
 }else{
 	if(collision_circle(x,y,12,global.player,false,false) && qprogress = global.progresso){
 		if(keyboard_check_pressed(global.KeyInteract)){
-			interacting = true
-			pos = 0
+			if global.paused = false {
+				interacting = true
+				pos = 0
+			}
 		}
 	}
 }
 if(interacting && global.paused = false){
+	instance_deactivate_object(obj_igmenu);
 	if(keyboard_check_pressed(global.KeyBack)){
 		state=0
 		interacting = false
@@ -73,4 +74,8 @@ if(interacting && global.paused = false){
 			room_goto(Demitido)
 		}
 	}
+}
+
+if !interacting {
+	instance_activate_object(obj_igmenu);
 }
