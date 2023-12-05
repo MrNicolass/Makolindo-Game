@@ -19,3 +19,4 @@ draw_text_transformed_color(room_width/2,(room_height/2)-32,"Agradecimentos Espe
 draw_sprite_ext(spr_agrdGeremias,0,(room_width/2)-40,room_height/2,.2,.2,0,c_white,salpha1)
 draw_sprite_ext(spr_agrdBaiacu,0,room_width/2,room_height/2,.2,.2,0,c_white,salpha2)
 draw_sprite_ext(spr_agrdMakoLino,0,(room_width/2)+40,room_height/2,.2,.2,0,c_white,salpha3)
+draw_text_transformed_color(room_width/2,(room_height)-32,"Pressione '"+global._fhinputKeys[global.KeyBack]+"' para sair.",.3,.3,0,c_white,c_white,c_white,c_white,salpha4)

@@ -25,3 +25,10 @@ if(spcalpha = true){
 		salpha3+=.02
 	}
 }
+if(keyboard_check_pressed(global.KeyBack)){
+	audio_stop_all()
+	room_goto(Menu)
+}
+if(backalpha){
+	salpha4 +=.02
+}
