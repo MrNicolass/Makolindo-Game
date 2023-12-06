@@ -1,3 +1,4 @@
+bgsubimg = 0
 pos = 0
 gap = 18
 level = 0 

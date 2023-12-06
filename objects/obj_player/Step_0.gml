@@ -1,5 +1,2 @@
 if global.paused exit;
 scr_pstates()
-if (keyboard_check_pressed(ord("P"))){
-	global.progresso = 11
-}

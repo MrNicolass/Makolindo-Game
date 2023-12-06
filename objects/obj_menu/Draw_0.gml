@@ -1,4 +1,4 @@
-draw_sprite_ext(spr_mainMenu,0,0,0,1,1,0,c_white,menu_bg)
+draw_sprite_ext(spr_MenuAnimated,bgsubimg,0,0,1,1,0,c_white,menu_bg)
 draw_sprite_ext(spr_LogoAdve,0,room_width/2,lm2_ypos,logo_xscale,logo_yscale,rot,c_white,1)
 draw_sprite_ext(spr_LogoMak,0,room_width/2,lm_ypos,logo_xscale,logo_yscale,rot,c_white,1)
 

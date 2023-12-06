@@ -6,6 +6,7 @@ if(global.progresso < 1 && global.gameprog = 0){
 			global.player.state = states.interacting
 			telstate = telstates.interacting
 			dialogo = 0
+			audio_stop_sound(snd_Telefone)
 		}
 	}
 }

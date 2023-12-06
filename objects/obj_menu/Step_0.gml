@@ -1,3 +1,4 @@
+bgsubimg +=.1
 op_length = array_length(option[level])
 if(start_menu){
 
