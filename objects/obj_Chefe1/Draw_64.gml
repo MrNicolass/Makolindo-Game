@@ -14,7 +14,7 @@ if(global.progresso < 12){
 		tdialogo = "Volte quando finalizar todas as suas tarefas!!"
 	break
 	case 3:
-		tdialogo = "Volte ao trabalho...\nAperte 'ESC' ou 'Backspace' para sair."
+		tdialogo = "Volte ao trabalho...\nPressione '"+global._fhinputKeys[global.KeyBack]+"' para sair."
 	break
 	}
 }

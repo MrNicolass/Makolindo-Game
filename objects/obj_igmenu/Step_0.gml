@@ -1,20 +1,17 @@
-if(keyboard_check_pressed(global.KeyBack) || keyboard_check_pressed(global.KeyBack2)){
-	switch global.paused{
-			case true:
-				global.paused = false
-				instance_activate_all()
-			break
-			case false:
-				if(obj_player.state != states.interacting){
-					global.paused = true
-					instance_deactivate_object(obj_player)
-				}
-			break
-		}
+if(keyboard_check_pressed(global.KeyBack)){
+	if level < 1 {
+		global.paused = !global.paused;
+	} else {
+		level = 0;
+		pos = 0;
+		op_length = array_length(option[level])
+	}
 }
 if(global.paused = true){
 	op_length = array_length(option[level])
-	pos += (keyboard_check_pressed(global.KeyDown) || keyboard_check_pressed(global.ArrowDown))-(keyboard_check_pressed(global.KeyUp) || keyboard_check_pressed(global.ArrowUp))
+	if !Binding {
+	pos += (keyboard_check_pressed(global.KeyDown) - keyboard_check_pressed(global.KeyUp))
+	}
 	if(pos>=op_length){
 		pos = 0
 	}
@@ -22,7 +19,7 @@ if(global.paused = true){
 		pos = op_length-1
 	}
 
-	if(keyboard_check_pressed(global.KeyInteract)||keyboard_check_pressed(global.KeyInteract2)){
+	if(keyboard_check_pressed(global.KeyInteract) && !Binding){
 		switch level{
 			case 0:
 				switch pos{
@@ -58,18 +55,76 @@ if(global.paused = true){
 					break
 				}
 				case 2:
+				if pos != 6 {
+					alarm[0] = 1;
+				}
 				switch pos{
-					case 3:
+					case 6:
 						level = 0
 					break
 				}
 			break
 		}
 		op_length = array_length(option[level])
-		pos = 0
+		if level != 2 {
+			pos = 0;
+		}
 	}
-	if(keyboard_check_pressed(global.KeyBack)||keyboard_check_pressed(global.KeyBack2)){
-		pos = 0
-		level = 0
+	
+	if Binding {
+	if keyboard_check_pressed(vk_anykey){
+		switch pos {
+			//KeyUp
+			case 0:
+				global.KeyUp = keyboard_lastkey;
+				option[2, 0] = "Up: "+global._fhinputKeys[global.KeyUp]
+				Binding = false;
+			break;
+			
+			//KeyDown
+			case 1:
+				global.KeyDown = keyboard_lastkey;
+				option[2, 1] = "Down: "+global._fhinputKeys[global.KeyDown]
+				Binding = false;
+			break;
+			
+			//KeyLeft
+			case 2:
+				global.KeyLeft = keyboard_lastkey;
+				option[2, 2] = "Left: "+global._fhinputKeys[global.KeyLeft]
+				Binding = false;
+			break;
+			
+			//KeyRight
+			case 3:
+				global.KeyRight = keyboard_lastkey;
+				option[2, 3] = "Right: "+global._fhinputKeys[global.KeyRight]
+				Binding = false;
+			break;
+			
+			//KeyInteract
+			case 4:
+				global.KeyInteract = keyboard_lastkey;
+				option[2, 4] = "Interact: "+global._fhinputKeys[global.KeyInteract]
+				Binding = false;
+			break;
+			
+			//KeyBack
+			case 5:
+				global.KeyBack = keyboard_lastkey;
+				option[2, 5] = "Back/Pause: "+global._fhinputKeys[global.KeyBack]
+				Binding = false;
+			break;
+		}		
+		
 	}
+	}
+
+} else {
+	level = 0;
+	pos = 0;
 }
+
+x = camera_get_view_width(view_camera[0])*3
+y = camera_get_view_height(view_camera[0])*3
+

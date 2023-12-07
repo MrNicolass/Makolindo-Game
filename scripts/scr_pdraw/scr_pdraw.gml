@@ -53,7 +53,7 @@ function scr_pdraw(){
 			xscale = -1
 		break
 	}
-	if(state = states.interacting){
+	if(state = states.interacting or global.paused){
 		subimg = 0
 	}
 	//muda o valor desse subimg pra 1 e vê um negocio é kkkkkkkkkkk (padrão .2)

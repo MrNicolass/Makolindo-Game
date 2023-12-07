@@ -3,8 +3,8 @@ function scr_pmov(){
 	var LayerId = layer_get_id("Tile_Collision")
 	coltile = layer_tilemap_get_id(LayerId)
 	
-	xdir = global.hAxis
-	ydir = global.vAxis
+	xdir = keyboard_check(global.KeyRight) - keyboard_check(global.KeyLeft)
+	ydir = keyboard_check(global.KeyDown) - keyboard_check(global.KeyUp)
 	
 	var vet2x = 0
 	var vet2y = 1

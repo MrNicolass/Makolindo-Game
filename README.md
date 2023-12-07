@@ -1,7 +1,7 @@
 <h1>Makolindo Game <a href="https://www.yoyogames.com/" target="_blank"><img src="https://www.moosoft.com/wp-content/uploads/2022/11/gamemaker-studio-98765-1.png" alt="GML" width="40" height="40"/></a></h1>
 Tome cuidado, Makolindo está a espreita...<br>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-0.9.8-blue">
+  <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue">
   <img alt="Game Status" src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green">
   <a href='https://github.com/MrNicolass/Makolindo-Game/blob/main/LICENSE'><img alt="License" src="https://img.shields.io/badge/License-MIT-green?"></a>
 </p>
