@@ -2,7 +2,7 @@
 Tome cuidado, Makolindo está a espreita...<br>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue">
-  <img alt="Game Status" src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green">
+  <img alt="Game Status" src="https://img.shields.io/badge/Status-Finalizado-green">
   <a href='https://github.com/MrNicolass/Makolindo-Game/blob/main/LICENSE'><img alt="License" src="https://img.shields.io/badge/License-MIT-green?"></a>
 </p>
 
